@@ -1,4 +1,7 @@
 venv/
+site-packages/
 __pycache__/
+*.pyc
+*.pyo
 .env
 node_modules/
