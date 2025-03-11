@@ -55,26 +55,6 @@ Ensure you have the following installed:
    python app.py
    ```
 
-### Backend Setup (Django)
-1. Navigate to the backend folder:
-   ```sh
-   cd ../backend
-   ```
-2. Create a virtual environment:
-   ```sh
-   python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-   ```
-3. Install dependencies:
-   ```sh
-   pip install -r requirements.txt
-   ```
-4. Apply migrations and start the Django server:
-   ```sh
-   python manage.py migrate
-   python manage.py runserver
-   ```
-
 ## Usage
 1. Open the frontend in your browser.
 2. Upload an STL/OBJ file.
