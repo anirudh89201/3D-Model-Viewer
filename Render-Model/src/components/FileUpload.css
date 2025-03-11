@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&display=swap');
+
+.upload-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f7fa;
+    padding: 20px;
+}
+
+.upload-form {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+.upload-form h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.upload-input {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px dashed #d1d5db;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #666;
+    background-color: #fafafa;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+.upload-input:hover {
+    border-color: #9ca3af;
+}
+
+.upload-button {
+    width: 100%;
+    padding: 12px 20px;
+    background-color: #4f46e5;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.upload-button:hover {
+    background-color: #4338ca;
+}
+
+.upload-button:active {
+    transform: scale(0.98);
+}
+
+.upload-button:disabled {
+    background-color: #d1d5db;
+    cursor: not-allowed;
+}
+
+.error-message {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #dc2626;
+    margin-top: 20px;
+    font-weight: 400;
+    background-color: #fee2e2;
+    padding: 10px;
+    border-radius: 6px;
+}
