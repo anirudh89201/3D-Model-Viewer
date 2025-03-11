@@ -75,10 +75,6 @@ const Model = ({ url }) => {
         camera.position.set(0, 0, distance); // Along Z-axis
         camera.lookAt(center); // Look at the model's center
         camera.updateProjectionMatrix(); // Apply changes
-
-        // Optional: Log for debugging
-        console.log("Model Size:", size);
-        console.log("Camera Distance:", distance);
     }, [geometry, camera]);
 
     return (
